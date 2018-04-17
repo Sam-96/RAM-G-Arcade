@@ -12,7 +12,6 @@ public class GenerateTerrain : MonoBehaviour
     public float detailScale = 5.0f;
 
     List<GameObject> myCacti = new List<GameObject>();          //infinite tree
-    List<GameObject> myGems = new List<GameObject>();
 
     private MeshFilter filter;
 
@@ -43,19 +42,7 @@ public class GenerateTerrain : MonoBehaviour
                     myCacti.Add(newCactus);
                 }
             }
-            if (vertices[v].y > 2.9 && Mathf.PerlinNoise((vertices[v].x + 5) / 10, (vertices[v].z + 5) / 10) * 10 < 3) //added this whole if
-            {
-                GameObject newGem = DiamondPopulate.GetGem();
-                if (newGem != null)
-                {
-                    Vector3 gemPos = new Vector3(vertices[v].x + this.transform.position.x,
-                                                    vertices[v].y,
-                                                    vertices[v].z + this.transform.position.z);
-                    newGem.transform.position = gemPos;
-                    newGem.SetActive(true);
-                    myGems.Add(newGem);
-                }
-            }
+            
 
 
         }
@@ -75,12 +62,6 @@ public class GenerateTerrain : MonoBehaviour
         }
         myCacti.Clear();
 
-        for (int i = 0; i < myGems.Count; i++)
-        {
-            if (myGems[i] != null)
-                myGems[i].SetActive(false);
-        }
-        myGems.Clear();
     }
 
 
