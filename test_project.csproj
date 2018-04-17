@@ -288,6 +288,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Breanna\Scripts\OnTriggerLoadLevel.cs" />
     <Compile Include="Assets\Breanna\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\Scripts\GenerateInfinite.cs" />
