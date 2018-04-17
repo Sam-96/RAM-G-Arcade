@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LazyFlight : MonoBehaviour {
+public class EnemyFlockingBehavior : MonoBehaviour {
 
 	public GameObject player;
 	public GameObject boidPrefab;

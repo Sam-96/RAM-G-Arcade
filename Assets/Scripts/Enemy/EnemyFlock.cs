@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Flock : MonoBehaviour {
+public class EnemyFlock : MonoBehaviour {
 
 	public float movementSpeed = 0.8f;
 	float turnSpeed = 5.0f;
@@ -18,7 +18,7 @@ public class Flock : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Vector3.Distance (transform.position, Vector3.zero) >= LazyFlight.roamSize) {
+		if (Vector3.Distance (transform.position, Vector3.zero) >= EnemyFlockingBehavior.roamSize) {
 			turning = true;
 		} 
 		else {
@@ -41,13 +41,13 @@ public class Flock : MonoBehaviour {
 	void ApplyRules()
 	{
 		GameObject[] gos;
-		gos = LazyFlight.allBoidz;
+		gos = EnemyFlockingBehavior.allBoidz;
 
 		Vector3 vcenter = Vector3.zero;
 		Vector3 vavoid = Vector3.zero;
 		float gSpeed = 0.1f;
 
-		Vector3 goalPos = LazyFlight.goalPos;
+		Vector3 goalPos = EnemyFlockingBehavior.goalPos;
 
 		float dist;
 		int groupSize = 0;
@@ -64,7 +64,7 @@ public class Flock : MonoBehaviour {
 						vavoid = vavoid + (this.transform.position - go.transform.position);
 					}
 
-					Flock anotherFlock = go.GetComponent<Flock>();
+					EnemyFlock anotherFlock = go.GetComponent<EnemyFlock>();
 					gSpeed = gSpeed + anotherFlock.movementSpeed;
 				}
 			}
