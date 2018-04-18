@@ -16,13 +16,13 @@ public class OnTriggerLoadLevel : MonoBehaviour {
     {
         if(other.gameObject.tag == "Player")
         {
-            /* //&& other.gameObject.tag == "player2"
+             //&& other.gameObject.tag == "player2"
              guiObject.SetActive(true);
              if(guiObject.activeInHierarchy == true && Input.GetButtonDown("Use"))
              {
                  SceneManager.LoadScene(levelToLoad);
              }
-             */
+             
             Debug.Log("hit box collider");
         }
     }
