@@ -52,13 +52,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             // read inputs
             if(playerNumber == 1)
             {
-                h = CrossPlatformInputManager.GetAxis("Horizontal2");
-                v = CrossPlatformInputManager.GetAxis("Vertical2");
+                h = CrossPlatformInputManager.GetAxis("Horizontal1");
+                v = CrossPlatformInputManager.GetAxis("Vertical1");
             }
             else
             {
-                h = CrossPlatformInputManager.GetAxis("Horizontal1");
-                v = CrossPlatformInputManager.GetAxis("Vertical1");
+                h = CrossPlatformInputManager.GetAxis("Horizontal2");
+                v = CrossPlatformInputManager.GetAxis("Vertical2");
             }
 
             bool crouch = Input.GetKey(KeyCode.C);

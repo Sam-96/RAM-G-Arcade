@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Breanna/Scenes/TitleScene.unity
+- path: Assets/Breanna/Scenes/InstructionScene.unity
   isLoaded: 1
   isActive: 1

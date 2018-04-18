@@ -18,7 +18,7 @@ public class OnTriggerLoadLevel : MonoBehaviour {
         {
             /* //&& other.gameObject.tag == "player2"
              guiObject.SetActive(true);
-             if(guiObject.activeInHierarchy == true && Input.GetButtonDown("Fire2"))
+             if(guiObject.activeInHierarchy == true && Input.GetButtonDown("Use"))
              {
                  SceneManager.LoadScene(levelToLoad);
              }
