@@ -25,7 +25,7 @@ public class gameplayCanvas : MonoBehaviour {
 
 	public void updateCanvas()
 	{
-		pagesString = "Pages "+pagesFound.ToString()+"/"+pagesTotal.ToString();
+		pagesString = "Pages Found: "+pagesFound.ToString()+"/"+pagesTotal.ToString();
 		txtPages.text = pagesString;
 	}
 

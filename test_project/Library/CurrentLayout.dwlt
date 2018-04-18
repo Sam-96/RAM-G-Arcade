@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 5207
+  controlID: 2684
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 5085
+  controlID: 2685
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 5164
+  controlID: 2707
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -314,7 +314,7 @@ MonoBehaviour:
     y: 459
     width: 437
     height: 222
-  m_MaximizeOnPlay: 0
+  m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -396,9 +396,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -23.50988, y: 22.902388, z: -6.178891}
+    m_Target: {x: -20.471605, y: 6.8078732, z: -3.6430888}
     speed: 2
-    m_Value: {x: -23.50988, y: 22.902388, z: -6.178891}
+    m_Value: {x: -20.471605, y: 6.8078732, z: -3.6430888}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -421,13 +421,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.18742937, y: 0.8064529, z: -0.33746094, w: 0.4479109}
+    m_Target: {x: -0.20407656, y: 0.051643595, z: -0.0107823135, w: -0.9775323}
     speed: 2
-    m_Value: {x: 0.18742935, y: 0.8064529, z: -0.33746094, w: 0.44791088}
+    m_Value: {x: -0.20407656, y: 0.051643595, z: -0.010782313, w: -0.97753227}
   m_Size:
-    m_Target: 17.829033
+    m_Target: 0.81339926
     speed: 2
-    m_Value: 17.829033
+    m_Value: 0.81339926
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -537,9 +537,9 @@ MonoBehaviour:
     height: 200
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 362f0000
-    m_LastClickedID: 12086
-    m_ExpandedIDs: bc03ffffa81cfffffcceffff9efbffff0000000030910000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 4aa7ffff0ea9ffff9efbffff00000000cc2d0000f82e0000042f0000463000007a30000088310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
