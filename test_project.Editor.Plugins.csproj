@@ -282,19 +282,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="test_project.Plugins.csproj">
-      <Project>{135A688A-3018-377C-3A33-9636D4EF7789}</Project>
-      <Name>test_project.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="test_project.csproj">
       <Project>{94F80305-9175-2A2D-DD6F-CAEC12DDBDB4}</Project>
       <Name>test_project</Name>
+    </ProjectReference>
+    <ProjectReference Include="test_project.Plugins.csproj">
+      <Project>{135A688A-3018-377C-3A33-9636D4EF7789}</Project>
+      <Name>test_project.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Lobby\Documentation.txt" />
+    <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\Ricky\assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Ricky\assets\Standard Assets\characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Ricky\assets\Standard Assets\characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
