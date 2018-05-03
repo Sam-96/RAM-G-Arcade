@@ -51,12 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="assets\Editor\CreateCone.cs" />
-     <Compile Include="assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <None Include="assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="assets\Standard Assets\characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
-     <None Include="assets\Standard Assets\characters\firstpersoncharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="assets\Standard Assets\characters\RollerBall\RollerBallGuidelines.txt" />
+     <Compile Include="assets\Ricky\Editor\CreateCone.cs" />
+     <Compile Include="assets\Ricky\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <None Include="assets\Ricky\Lobby\Documentation.txt" />
+     <None Include="assets\Ricky\Lobby\Instruction.txt" />
+     <None Include="assets\Ricky\Fonts\OpenSans\License!.txt" />
+     <None Include="assets\Ricky\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="assets\Ricky\Standard Assets\characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="assets\Ricky\Standard Assets\characters\firstpersoncharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="assets\Ricky\Standard Assets\characters\RollerBall\RollerBallGuidelines.txt" />
+ <Reference Include="Assembly-CSharp-firstpass">
+ <HintPath>/Users/rickyroots/Desktop/CS596/CS596P3/test_project/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -137,8 +143,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{67DFDB56-0A79-8316-D2B5-BA6CD1B63F9E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{52943537-5E5B-EB62-90C3-21282996A80B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
