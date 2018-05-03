@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Samuel/Scenes/Opening.unity
+    guid: 8baf9a519b93d7047aad544ce93cab8b
   - enabled: 1
-    path: Assets/Scenes/Main.unity
+    path: Assets/Samuel/Scenes/TheLobbyScene.unity
+    guid: 1ea73dbdcfa99e84dbd1edba64fababd
+  - enabled: 1
+    path: Assets/Samuel/Scenes/JetGame.unity
     guid: 44bc97551ecce214bae14f77c543b906
