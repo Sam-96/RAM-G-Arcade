@@ -7,6 +7,7 @@ public class gameplayCanvas : MonoBehaviour {
 	public static gameplayCanvas instance;
 	public GameObject directionalLight;
 	public monster[] monsters;
+	public Text WinText;
 	public Text txtPages;
 	public string pagesString;
 	public int pagesTotal = 4;
@@ -21,12 +22,15 @@ public class gameplayCanvas : MonoBehaviour {
 	void Start () 
 	{
 		updateCanvas();
+		WinText.GetComponent<Text> ().enabled = false;
 	}
 
 	public void updateCanvas()
 	{
 		pagesString = "Pages Found: "+pagesFound.ToString()+"/"+pagesTotal.ToString();
 		txtPages.text = pagesString;
+		if (pagesFound >= pagesTotal)
+			WinText.GetComponent<Text> ().enabled = true;
 	}
 
 	public void findPage()
