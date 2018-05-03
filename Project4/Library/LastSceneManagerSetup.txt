@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Samuel/Scenes/TheLobbyScene.unity
+  isLoaded: 1
+  isActive: 1
