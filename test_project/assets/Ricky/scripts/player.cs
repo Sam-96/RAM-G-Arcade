@@ -1,9 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class player : MonoBehaviour {
 
+	public string levelToLoad;
 	public bool alive = true;
+
+	void Update(){
+
+		if(Input.GetKeyDown(KeyCode.M)){ 
+			SceneManager.LoadScene (levelToLoad);
+		}
+	}
 
 	void OnTriggerEnter(Collider other)
 	{

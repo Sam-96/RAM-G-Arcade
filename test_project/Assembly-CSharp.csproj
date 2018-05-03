@@ -68,6 +68,7 @@
      <Compile Include="assets\Ricky\SampleScenes\Scripts\NetworkSpaceship.cs" />
      <Compile Include="assets\Ricky\SampleScenes\Scripts\NetworkSpaceshipBullet.cs" />
      <Compile Include="assets\Ricky\scripts\gameplayCanvas.cs" />
+     <Compile Include="assets\Ricky\scripts\MainMenu.cs" />
      <Compile Include="assets\Ricky\scripts\monster.cs" />
      <Compile Include="assets\Ricky\scripts\player.cs" />
      <Compile Include="assets\Ricky\scripts\RickyLocalPlayer.cs" />
@@ -122,9 +123,6 @@
      <None Include="assets\Ricky\Standard Assets\characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="assets\Ricky\Standard Assets\characters\firstpersoncharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="assets\Ricky\Standard Assets\characters\RollerBall\RollerBallGuidelines.txt" />
- <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>/Users/rickyroots/Desktop/CS596/CS596P3/test_project/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

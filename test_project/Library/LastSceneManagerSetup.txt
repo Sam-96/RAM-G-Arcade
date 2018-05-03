@@ -1,4 +1,4 @@
 sceneSetups:
-- path: assets/Ricky/scenes/RickyMultiplayerLobby.unity
+- path: assets/Ricky/scenes/RickyMainMenu.unity
   isLoaded: 1
   isActive: 1
