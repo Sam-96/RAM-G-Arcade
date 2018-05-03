@@ -290,7 +290,6 @@
   <ItemGroup>
     <Compile Include="Assets\Breanna\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Breanna\Scripts\OnTriggerLoadLevel.cs" />
-    <Compile Include="Assets\Breanna\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
     <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyHook.cs" />
