@@ -290,17 +290,6 @@
   <ItemGroup>
     <Compile Include="Assets\Breanna\Scripts\ButtonManager.cs" />
     <Compile Include="Assets\Breanna\Scripts\OnTriggerLoadLevel.cs" />
-    <Compile Include="Assets\Lobby\Scripts\DraggablePanel.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyCountdownPanel.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyHook.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyInfoPanel.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyMainMenu.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyManager.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyPlayer.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyPlayerList.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerEntry.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyServerList.cs" />
-    <Compile Include="Assets\Lobby\Scripts\Lobby\LobbyTopPanel.cs" />
     <Compile Include="Assets\Ricky\assets\scripts\gameplayCanvas.cs" />
     <Compile Include="Assets\Ricky\assets\scripts\monster.cs" />
     <Compile Include="Assets\Ricky\assets\scripts\player.cs" />
@@ -348,20 +337,9 @@
     <Compile Include="Assets\Ricky\assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\Ricky\assets\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Ricky\assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\NetworkAsteroid.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\NetworkGameManager.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\NetworkLobbyHook.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceship.cs" />
-    <Compile Include="Assets\SampleScenes\Scripts\NetworkSpaceshipBullet.cs" />
-    <Compile Include="Assets\Scripts\ChangeScene.cs" />
-    <Compile Include="Assets\Scripts\GenerateInfinite.cs" />
-    <Compile Include="Assets\Scripts\GenerateTerrain.cs" />
-    <Compile Include="Assets\Scripts\TreePool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\OpenSans\License!.txt" />
-    <None Include="Assets\Lobby\Documentation.txt" />
-    <None Include="Assets\Lobby\Instruction.txt" />
     <None Include="Assets\Ricky\assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Ricky\assets\Standard Assets\characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Ricky\assets\Standard Assets\characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
